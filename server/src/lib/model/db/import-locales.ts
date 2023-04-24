@@ -268,8 +268,8 @@ export async function importLocales() {
             `,
             [
               nativeNames[lang.code] ? nativeNames[lang.code] : lang.code,
-              newLanguageData[lang.code].is_contributable,
-              newLanguageData[lang.code].is_translated,
+              1,
+              1,
               lang.direction,
               allLanguages[lang.code].id,
             ]
@@ -283,8 +283,8 @@ export async function importLocales() {
                 lang.code,
                 newLanguageData[lang.code].target_sentence_count,
                 lang.name,
-                newLanguageData[lang.code].is_contributable,
-                newLanguageData[lang.code].is_translated,
+                1,
+                1
                 lang.direction,
               ],
             ]
