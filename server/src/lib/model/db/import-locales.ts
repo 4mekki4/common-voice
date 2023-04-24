@@ -284,7 +284,7 @@ export async function importLocales() {
                 newLanguageData[lang.code].target_sentence_count,
                 lang.name,
                 1,
-                1
+                1,
                 lang.direction,
               ],
             ]
